@@ -1,0 +1,47 @@
+.padding{
+  padding: 3% 0;
+}
+
+.img-card{
+  width: 400px;
+  height: 265px;
+  padding-bottom: 5%;
+}
+
+.navbar-links{
+  justify-content: flex-end;
+}
+
+.nav-ul li a{
+  color: black;
+  margin-top: 15px;
+}
+
+.nav-ul li .w-border{
+  border-right-style: solid;
+}
+
+.navbar-span{
+  background-color: aqua;
+  padding: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  /* The body's bg color will be #333 */
+  .navbar-links{
+    justify-content: center;
+  }
+  .navbar-name{
+    justify-content: center;
+    background-color: aqua;
+  }
+}
+
+footer{
+  background: #474545;
+  justify-content: center;
+}
+
+.footer-a{
+  color:white;
+}
