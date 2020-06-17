@@ -1,11 +1,18 @@
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+
 .padding{
-  padding: 3% 0;
+  padding: 3% 3%;
+  border: #f8f9fa solid 1px;
+  margin: 5% 0;
 }
 
 .img-card{
-  width: 400px;
-  height: 265px;
+  /* width: 450px; */
+  /* height: 300px; */
   padding-bottom: 5%;
+   /* border: solid black 3px; */
 }
 
 .navbar-links{
@@ -15,15 +22,19 @@
 .nav-ul li a{
   color: black;
   margin-top: 15px;
+  font-size: 13px;
 }
 
 .nav-ul li .w-border{
-  border-right-style: solid;
+  /* border-right-style: solid ; */
+  border: 2px #474545;
+  border-style: none solid none none;
 }
 
 .navbar-span{
-  background-color: aqua;
+  background-color: rgb(89, 170, 165);
   padding: 20px;
+  color: white;
 }
 
 @media screen and (max-width: 575px) {
@@ -33,7 +44,7 @@
   }
   .navbar-name{
     justify-content: center;
-    background-color: aqua;
+    background-color:rgb(89, 170, 165);
   }
 }
 
@@ -44,4 +55,29 @@ footer{
 
 .footer-a{
   color:white;
+  font-size: 15px;
+}
+
+.img-overlay{
+    position: absolute;
+    left: 1;
+    top: 0;
+    width: 94%;
+    z-index: 5;
+    height: 20%;
+    background: rgb(89, 170, 165);
+    margin-top: 180px;
+    display: flex;
+   
+}
+
+.img-overlay p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card {
+ margin-bottom: 20px;
 }
