@@ -9,16 +9,20 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/style.css">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
   <title>Responsive Portfolio</title>
 </head>
 
 <body>
   <!-- Navbar -->
   <header>
-    <div class="row no-gutters">
+    <div class="row no-gutters sticky-top">
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <nav class="navbar navbar-light navbar-name p-0">
+        <nav class="navbar navbar-name p-0">
           <span class="navbar-brand mb-0 h1 navbar-span ml-5">Jeorge Janil Donato</span>
         </nav>
       </div>
@@ -44,41 +48,42 @@
   <!-- Container Start -->
   <div class="container">
     <div class="padding">
-    <div class="row">
-      <div class="col-12">
-        <h2>Contact</h2>
+      <div class="row">
+        <div class="col-12">
+          <h2>Contact</h2>
+        </div>
+        <div class="col-12">
+          <hr style="font-weight: bolder;">
+        </div>
       </div>
-      <div class="col-12">
-        <hr style="font-weight: bolder;">
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="form-group">
+              <label for="InputName">Name</label>
+              <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp"
+                placeholder="Firstname and Lastname">
+            </div>
+            <div class="form-group">
+              <label for="InputEmail">Email</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <form>
-          <div class="form-group">
-            <label for="InputName">Name</label>
-            <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Firstname and Lastname">
-          </div>
-          <div class="form-group">
-            <label for="InputEmail">Email</label>
-            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
-              placeholder="example@gmail.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </div>
     </div>
   </div>
   <!-- End Container -->
   <!-- Footer -->
   <footer class="footer">
     <nav class="navbar" style="justify-content: center;">
-      <a class="navbar-brand footer-a " href="#">Fixed bottom</a>
+      <a class="navbar-brand footer-a " href="#">copyright</a>
     </nav>
   </footer>
   <!-- End Footer -->

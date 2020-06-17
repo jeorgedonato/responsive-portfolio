@@ -17,6 +17,7 @@ body{
 
 .navbar-links{
   justify-content: flex-end;
+  background: white;
 }
 
 .nav-ul li a{
@@ -48,9 +49,14 @@ body{
   }
 }
 
-footer{
-  background: #474545;
-  justify-content: center;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #474545;
+  /* color: white; */
+  text-align: center;
 }
 
 .footer-a{
@@ -80,4 +86,18 @@ footer{
 
 .card {
  margin-bottom: 20px;
+ color: black;
+}
+
+.card .card-body{
+  background: rgb(89, 170, 165);
+  color: white;
+  text-align: center;
+}
+
+.submit-button{
+  background: rgb(89, 170, 165);
+  border: none;
+  padding: 1rem;
+  color: white;
 }
