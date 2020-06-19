@@ -1,11 +1,14 @@
 body{
   font-family: 'Libre Baskerville', serif;
+  background: #efefef url(bg-ph.jpg) repeat fixed top left; 
+
 }
 
 .padding{
   padding: 3% 3%;
   border: #f8f9fa solid 1px;
   margin: 5% 0;
+  background: white;
 }
 
 .img-card{
@@ -100,4 +103,8 @@ body{
   border: none;
   padding: 1rem;
   color: white;
+}
+
+header{
+  background: white;
 }
