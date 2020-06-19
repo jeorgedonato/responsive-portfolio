@@ -7,7 +7,7 @@
 
 <p align="center">A responsive website created using Bootstrap's grid system with a tweak of custom styling.</p>
 
-####Technologies Used:
+**Technologies Used:**
 - **HTML**
 - **CSS**
 - **Bootstrap**
