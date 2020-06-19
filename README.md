@@ -21,4 +21,4 @@
 ![Contact Screenshot](/assets/contact-screenshot.jpg)
 ****
 
-<h5 align="center">© Jeorge Donato</h5>
+<h5 align="center">© 2020 Jeorge Janil Donato</h5>
