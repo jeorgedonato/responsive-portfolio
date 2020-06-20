@@ -1,41 +1,46 @@
-body{
-  font-family: 'Libre Baskerville', serif;
-  background: #efefef url(bg-ph.jpg) repeat fixed top left; 
-
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.padding{
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #efefef url(bg-ph.jpg) repeat fixed top left;
+}
+
+.padding {
   padding: 3% 3%;
   border: #f8f9fa solid 1px;
   margin: 5% 0;
   background: white;
+  /* height: 100vh; */
 }
 
-.img-card{
+.img-card {
   /* width: 450px; */
   /* height: 300px; */
   padding-bottom: 5%;
-   /* border: solid black 3px; */
+  /* border: solid black 3px; */
 }
 
-.navbar-links{
+.navbar-links {
   justify-content: flex-end;
   background: white;
 }
 
-.nav-ul li a{
+.nav-ul li a {
   color: black;
   margin-top: 15px;
   font-size: 13px;
 }
 
-.nav-ul li .w-border{
+.nav-ul li .w-border {
   /* border-right-style: solid ; */
   border: 2px #474545;
   border-style: none solid none none;
 }
 
-.navbar-span{
+.navbar-span {
   background-color: rgb(89, 170, 165);
   padding: 20px;
   color: white;
@@ -43,68 +48,67 @@ body{
 
 @media screen and (max-width: 575px) {
   /* The body's bg color will be #333 */
-  .navbar-links{
+  .navbar-links {
     justify-content: center;
   }
-  .navbar-name{
+  .navbar-name {
     justify-content: center;
-    background-color:rgb(89, 170, 165);
+    background-color: rgb(89, 170, 165);
   }
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 50px;
-    background-color: #6c757d;
-    text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 50px;
+  background-color: #6c757d;
+  text-align: center;
 }
 
-.footer-a{
-  color:white;
+.footer-a {
+  color: white;
   font-size: 15px;
 }
 
-.img-overlay{
-    position: absolute;
-    left: 1;
-    top: 0;
-    width: 94%;
-    z-index: 5;
-    height: 20%;
-    background: rgb(89, 170, 165);
-    margin-top: 180px;
-    display: flex;
-   
+.img-overlay {
+  position: absolute;
+  left: 1;
+  top: 0;
+  width: 94%;
+  z-index: 5;
+  height: 20%;
+  background: rgb(89, 170, 165);
+  margin-top: 180px;
+  display: flex;
 }
 
 .img-overlay p {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 15px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .card {
- margin-bottom: 20px;
- color: black;
+  margin-bottom: 20px;
+  color: black;
 }
 
-.card .card-body{
+.card .card-body {
   background: rgb(89, 170, 165);
   color: white;
   text-align: center;
 }
 
-.submit-button{
+.submit-button {
   background: rgb(89, 170, 165);
   border: none;
   padding: 1rem;
   color: white;
 }
 
-header{
+header {
   background: white;
 }
